@@ -11,6 +11,7 @@ export default [
       "semi": ["error", "always"], // Exige ponto e vírgula no final das linhas
       "quotes": ["error", "double"], // Exige aspas duplas
       "no-unused-vars": ["warn"], // Emite um aviso para variáveis não utilizadas
+      "@typescript-eslint/no-empty-object-type": "off"
       // Adicione mais regras conforme necessário
     }
   },
